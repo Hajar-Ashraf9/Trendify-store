@@ -32,6 +32,7 @@ nav ul li a{
     color: #2b2d42;
     font-size: 20px;
 }
+/*icon whatsapp*/
 .icon{
     position: fixed;
     bottom: 20px;
@@ -39,15 +40,16 @@ nav ul li a{
     z-index: 999;
 } 
 .icon i{
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
     background-color: #25d366;
     color: #ffffff;
     border-radius: 50%;
     font-size: 50px;
     box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
     text-decoration: none;
-    line-height: 1.5;
+    text-align: center;
+    line-height: 65px;
 }
 /* Hero Section */
 #hero{
@@ -79,7 +81,8 @@ nav ul li a{
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     margin: 0 auto 30px auto;
-    width: 600px;
+    min-width: 200px;
+    max-width: 600px;
 }
 #hero a{
     text-decoration: none;
@@ -100,7 +103,6 @@ nav ul li a{
 }
 
 #products .product{
-    height: 550px;
     max-width: 380px;
     min-width: 200px;
     margin-bottom: 15px;
@@ -208,6 +210,7 @@ nav ul li a{
     font-weight: 600;
     box-shadow: 0 4px 10px rgba(108, 50, 217, 0.2);
 }
+/*banner section*/
 #banner{
     background: linear-gradient(135deg, #6c32d9 0%, #d81b80 100%);
     color: #ffffff;
@@ -240,16 +243,15 @@ nav ul li a{
     font-weight: 700;
     margin-left: 6px;
 }
-#banner .btnoff {
+#banner a {
+    text-decoration: none;
     background-color: #ffffff;
     color: #6c32d9;
     border: none;
     padding: 14px 36px;
     border-radius: 30px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 15px;
-    cursor: pointer;
+    font-size: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 footer {
@@ -261,13 +263,13 @@ footer {
     border-top: 3px solid #6c32d9;
 }
 footer h4 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
     color: #e2e8f0;
 }
 footer p {
     font-family: 'Inter', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     color: #94a3b8;
 }
